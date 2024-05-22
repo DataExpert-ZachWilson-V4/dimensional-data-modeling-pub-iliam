@@ -94,4 +94,4 @@ SELECT
   2021 AS current_year
 FROM
   changes,
-  UNNEST(change_scd) AS scd (quality_class, is_active, start_date, end_date);
+  UNNEST(change_scd) AS scd (quality_class, is_active, start_date, end_date)
