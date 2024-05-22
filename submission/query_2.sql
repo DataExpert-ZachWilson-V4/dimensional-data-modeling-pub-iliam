@@ -67,4 +67,4 @@ SELECT
   COALESCE(ty.current_year, ly.current_year + 1) AS current_year
 FROM
   last_year ly
-FULL OUTER JOIN this_year ty ON ly.actor_id = ty.actor_id;
+FULL OUTER JOIN this_year ty ON ly.actor_id = ty.actor_id
