@@ -64,4 +64,4 @@ GROUP BY
   actor_id,
   quality_class,
   is_active,
-  change_identifier;
+  change_identifier
